@@ -8,16 +8,6 @@
 
 </div>
 
-## 🎯 About Me
-
-- name: Arush Karnatak
-- role: OpenCV Intern
-- location: India
-- interests: [Machine Learning, Computer Vision, Full-Stack Development, MLOps]
-- currently_learning: [Advanced PyTorch, 3D Computer Vision, Large Language Models]
-
-
-
 ## 💻 Tech Stack
 
 <div align="center">
