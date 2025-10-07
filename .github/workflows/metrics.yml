@@ -1,4 +1,5 @@
 name: Metrics
+
 on:
   # Schedule updates (once a day)
   schedule: [{cron: "0 0 * * *"}]
@@ -12,19 +13,41 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Isocalendar Plugin (existing)
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token (required)
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          # Output file name
           filename: metrics.plugin.isocalendar.svg
-          
-          # Remove base metrics (shows only the calendar)
           base: ""
-          
-          # Enable isocalendar plugin
           plugin_isocalendar: yes
-          
-          # Duration: half-year or full-year
           plugin_isocalendar_duration: full-year
+
+      # Languages Activity Plugin (NEW)
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_colors: github
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          commits_authoring: kcodess2807, kcodess2807@users.noreply.github.com
+
+      # Recently Starred Plugin (NEW)
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.stars.svg
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 4

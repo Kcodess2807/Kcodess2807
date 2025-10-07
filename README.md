@@ -187,6 +187,23 @@ currently_learning:
 
 </div>
 
+## 🈷️ Languages Activity
+
+<div align="center">
+
+![Languages Activity](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.languages.svg)
+
+</div>
+
+## 🌟 Recently Starred Repositories
+
+<div align="center">
+
+![Recently Starred](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.stars.svg)
+
+</div>
+
+
 ## 📈 Contribution Activity
 
 <div align="center">
