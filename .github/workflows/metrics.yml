@@ -22,7 +22,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # Languages Activity Plugin (NEW)
+      # Languages Activity Plugin
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
           plugin_languages_recent_days: 14
           commits_authoring: kcodess2807, kcodess2807@users.noreply.github.com
 
-      # Recently Starred Plugin (NEW)
+      # Recently Starred Plugin
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,3 +51,65 @@ jobs:
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 4
+
+      # Coding Habits Plugin - Facts
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.habits.facts.svg
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          config_timezone: Asia/Kolkata
+
+      # Coding Habits Plugin - Charts
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.habits.charts.svg
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_trim: yes
+          config_timezone: Asia/Kolkata
+
+      # Follow-up Plugin - Issues & PRs
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.followup.svg
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+          plugin_followup_archived: no
+
+      # GitHub Skyline Plugin
+      - uses: lowlighter/metrics@latest
+        with:
+          token: NOT_NEEDED
+          filename: metrics.plugin.skyline.svg
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2024
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+
+      # AniList Plugin
+      - uses: lowlighter/metrics@latest
+        with:
+          token: NOT_NEEDED
+          filename: metrics.plugin.anilist.svg
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching
+          plugin_anilist_limit: 2
+          plugin_anilist_user: .user.login

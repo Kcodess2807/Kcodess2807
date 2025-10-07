@@ -203,14 +203,44 @@ currently_learning:
 
 </div>
 
-
-## 📈 Contribution Activity
+## 💡 Coding Habits and Activity
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kcodess2807/kcodess2807/main/github-metrics.svg" alt="Detailed Metrics" width="100%"/>
+### 📊 Coding Facts
+
+![Coding Habits Facts](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.facts.svg)
+
+### 📈 Activity Charts
+
+![Coding Habits Charts](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.charts.svg)
 
 </div>
+
+## 🎟️ Issues and Pull Requests Follow-up
+
+<div align="center">
+
+![Follow-up](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.followup.svg)
+
+</div>
+
+## 🌇 GitHub Skyline 3D
+
+<div align="center">
+
+![GitHub Skyline](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.skyline.svg)
+
+</div>
+
+## 🌸 Anime Watch List
+
+<div align="center">
+
+![AniList](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.anilist.svg)
+
+</div>
+
 
 ## 🎓 Certifications & Achievements
 
