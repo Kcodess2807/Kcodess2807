@@ -1,0 +1,30 @@
+name: Metrics
+on:
+  # Schedule updates (once a day)
+  schedule: [{cron: "0 0 * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token (required)
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Output file name
+          filename: metrics.plugin.isocalendar.svg
+          
+          # Remove base metrics (shows only the calendar)
+          base: ""
+          
+          # Enable isocalendar plugin
+          plugin_isocalendar: yes
+          
+          # Duration: half-year or full-year
+          plugin_isocalendar_duration: full-year
