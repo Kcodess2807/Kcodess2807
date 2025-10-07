@@ -165,12 +165,53 @@ currently_learning:
 </div>
 
 <div align="center">
+  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kcodess2807&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9&langs_count=8" alt="Top Languages" width="49%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kcodess2807&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF" alt="Activity Graph" width="49%"/>
 
-# 👋 Hi, I'm Arush Karnatak
+</div>
 
-### 🚀 ML Engineer | Full-Stack Developer | Open Source Contributor
+## 🏆 GitHub Trophies
 
-[![GitHub followers](https://img.shields.io/github/followers/kcodess2807?label=Follow&style=social)](https://github.com/kcodess2807)
+<div align="center">
+
+![Trophy](https://github-profile-trophy.vercel.app/?username=kcodess2807&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
+
+</div>
+
+## 📅 3D Isometric Contribution Calendar
+
+<div align="center">
+
+![Isometric Contributions](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.isocalendar.svg)
+
+</div>
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/kcodess2807/kcodess2807/main/github-metrics.svg" alt="Detailed Metrics" width="100%"/>
+
+</div>
+
+## 🎓 Certifications & Achievements
+
+- **ML Engineering Intern** - OpenCV (Current)
+- **Deep Learning Specialization** - DeepLearning.AI
+- **AWS Certified Cloud Practitioner**
+- **Open Source Contributor** - Multiple organizations
+- **Hackathon Winner** - Various ML/AI competitions
+
+## 📫 Let's Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-karush2807.works-3B82F6?style=for-the-badge)](https://karush2807.works)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Medium](https://img.shields.io/badge/Medium-Follow-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-handle)
 
 </div>
 
