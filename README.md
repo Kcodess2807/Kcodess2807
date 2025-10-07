@@ -1,8 +1,8 @@
 <div align="center">
 
 # 👋 Hi, I'm Arush
+### From Pixels to Intelligence | Building AI-Powered Solutions | Open Source Contributor
 
-### ML Engineer | Full-Stack Developer | Open Source Contributor
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=ML+Engineering+Intern;B.Tech+IT+Student;Computer+Vision+Enthusiast;Full+Stack+Developer;Open+Source+Contributor)](https://git.io/typing-svg)
 
