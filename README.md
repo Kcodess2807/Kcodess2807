@@ -10,262 +10,77 @@
 
 ## 🎯 About Me
 
-```yaml
-name: Arush Karnatak
-role: OpenCv intern
-location: India
-interests:
-  - Machine Learning & Deep Learning
-  - Computer Vision & 3D Vision
-  - Full-Stack Development
-  - MLOps & Model Deployment
-currently_learning:
-  - Advanced PyTorch Architectures
-  - 3D Computer Vision Techniques
-  - Large Language Models
-```
+- name: Arush Karnatak
+- role: OpenCV Intern
+- location: India
+- interests: [Machine Learning, Computer Vision, Full-Stack Development, MLOps]
+- currently_learning: [Advanced PyTorch, 3D Computer Vision, Large Language Models]
+
+
 
 ## 💻 Tech Stack
 
 <div align="center">
-
-### Core Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-
-### ML/AI & Data Science
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-### Deep Learning & Computer Vision
-![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6B6B?style=for-the-badge)
-![UNet](https://img.shields.io/badge/UNet-4CAF50?style=for-the-badge)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-
-### MLOps & Workflow
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### Data Visualization & BI
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-### Web Frameworks & Game Engine
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-
-### Databases & Tools
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
+<table>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Backend & Languages:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=py,cs,fastapi,flask"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">AI/ML & Data Science:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">LLM & AI Agents</td>
+        <td>
+            <img height="40" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+            <img height="40" src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
+            <img height="40" src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white"/>
+            <img height="40" src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Databases:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">MLOps:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=git,github,docker,aws,gitlab,githubactions"/>
+            <img height="40" src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
+            <img height="40" src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white"/>
+            <img height="40" src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white"/>
+        </td>
+    </tr>
+</table>
 </div>
 
-## 📊 GitHub Statistics
+
+
+## 📈 GitHub Metrics
+
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.isocalendar.svg" alt="Isometric Calendar" width="400"/></td>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.languages.svg" alt="Languages" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.facts.svg" alt="Habits Facts" width="400"/></td>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.charts.svg" alt="Habits Charts" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.followup.svg" alt="Follow-up" width="400"/></td>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.stars.svg" alt="Recently Starred" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.activity.svg" alt="Recent Activity" width="400"/></td>
+  </tr>
+</table>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kcodess2807&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kcodess2807&theme=tokyonight&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" width="49%"/>
-
+  <img width="808" src="https://github-readme-activity-graph.vercel.app/graph?username=kcodess2807&bg_color=0D1117&color=3B82F6&line=3B82F6&point=ffffff&area=true&hide_border=true"/>
 </div>
 
-<div align="center">
-
-# 👋 Hi, I'm Arush
-
-### ML Engineer | Full-Stack Developer | Open Source Contributor
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=ML+Engineering+Intern;B.Tech+IT+Student;Computer+Vision+Enthusiast;Full+Stack+Developer;Open+Source+Contributor)](https://git.io/typing-svg)
-
-</div>
-
-## 🎯 About Me
-
-```yaml
-name: Arush Karnatak
-role: OpenCv intern
-location: India
-interests:
-  - Machine Learning & Deep Learning
-  - Computer Vision & 3D Vision
-  - Full-Stack Development
-  - MLOps & Model Deployment
-currently_learning:
-  - Advanced PyTorch Architectures
-  - 3D Computer Vision Techniques
-  - Large Language Models
-```
-
-## 💻 Tech Stack
-
-<div align="center">
-
-### Core Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-
-### ML/AI & Data Science
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-### Deep Learning & Computer Vision
-![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6B6B?style=for-the-badge)
-![UNet](https://img.shields.io/badge/UNet-4CAF50?style=for-the-badge)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-
-### MLOps & Workflow
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### Data Visualization & BI
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-### Web Frameworks & Game Engine
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-
-### Databases & Tools
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-</div>
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kcodess2807&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kcodess2807&theme=tokyonight&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" width="49%"/>
-
-</div>
-
-<div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kcodess2807&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9&langs_count=8" alt="Top Languages" width="49%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kcodess2807&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF" alt="Activity Graph" width="49%"/>
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=kcodess2807&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
-
-</div>
-
-## 📅 3D Isometric Contribution Calendar
-
-<div align="center">
-
-![Isometric Contributions](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.isocalendar.svg)
-
-</div>
-
-## 🈷️ Languages Activity
-
-<div align="center">
-
-![Languages Activity](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.languages.svg)
-
-</div>
-
-## 🌟 Recently Starred Repositories
-
-<div align="center">
-
-![Recently Starred](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.stars.svg)
-
-</div>
-
-## 💡 Coding Habits and Activity
-
-<div align="center">
-
-### 📊 Coding Facts
-
-![Coding Habits Facts](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.facts.svg)
-
-### 📈 Activity Charts
-
-![Coding Habits Charts](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.habits.charts.svg)
-
-</div>
-
-## 🎟️ Issues and Pull Requests Follow-up
-
-<div align="center">
-
-![Follow-up](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.followup.svg)
-
-</div>
-
-## 🌇 GitHub Skyline 3D
-
-<div align="center">
-
-![GitHub Skyline](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.skyline.svg)
-
-</div>
-
-## 🌸 Anime Watch List
-
-<div align="center">
-
-![AniList](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.anilist.svg)
-
-## 🎩 Notable Contributions
-
-<div align="center">
-
-![Notable Contributions](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.notable.svg)
-
-</div>
-
-## 📰 Recent Activity
-
-<div align="center">
-
-![Recent Activity](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.activity.svg)
-
-</div>
-
-
-</div>
-
-
-## 🎓 Certifications & Achievements
-
-- **ML Engineering Intern** - OpenCV (Current)
-- **Deep Learning Specialization** - DeepLearning.AI
-- **AWS Certified Cloud Practitioner**
-- **Open Source Contributor** - Multiple organizations
-- **Hackathon Winner** - Various ML/AI competitions
 
 ## 📫 Let's Connect
 
