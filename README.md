@@ -239,6 +239,23 @@ currently_learning:
 
 ![AniList](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.anilist.svg)
 
+## 🎩 Notable Contributions
+
+<div align="center">
+
+![Notable Contributions](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.notable.svg)
+
+</div>
+
+## 📰 Recent Activity
+
+<div align="center">
+
+![Recent Activity](https://github.com/kcodess2807/kcodess2807/blob/main/metrics.plugin.activity.svg)
+
+</div>
+
+
 </div>
 
 
