@@ -17,7 +17,7 @@
         <td><img height="40" src="https://skillicons.dev/icons?i=py,cs,fastapi,flask"/></td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">AI/ML & Data Science:</td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">ML/Computer Vision:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn"/></td>
     </tr>
     <tr>
