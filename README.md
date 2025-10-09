@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Arush
+# 👋 Hi, I'm Arush Karnatak
 ### From Pixels to Intelligence | Building AI-Powered Solutions | Open Source Contributor
 
 
