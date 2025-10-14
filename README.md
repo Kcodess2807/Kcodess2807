@@ -88,6 +88,8 @@
 
 <div align="center">
 
+[![An image of @kcodess2807's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kcodess2807)](https://holopin.io/@kcodess2807)
+
 ### 💡 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
 ![Profile Views](https://komarev.com/ghpvc/?username=kcodess2807&color=3B82F6&style=for-the-badge&label=Profile+Views)
