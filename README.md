@@ -1,32 +1,6 @@
-```text
-                                        arush@karnatak ───────────────────────────────
-    ┌──────────────────────────────┐
-    │  o o o         ~/arush - zsh │
-    ├──────────────────────────────┤     OS ............... Ubuntu 22.04 · Windows 11
-    │                              │     Host ............. GGSIPU · B.Tech IT, 2027
-    │       ___   __ __            │     Kernel ........... AI / ML Engineer
-    │      /   | / //_/            │     Shell ............ bash · zsh
-    │     / /| |/ ,<               │     IDE .............. VS Code · Cursor · Vim
-    │    / ___ / /| |              │
-    │   /_/  |_/_/ |_|             │     Lang.Prog ........ Python, TypeScript, C#, SQL
-    │                              │     Lang.Real ........ English, Hindi
-    │   > from pixels              │     ML.Stack ......... PyTorch, TensorFlow, OpenCV
-    │       to intelligence_       │     LLM.Stack ........ LangChain, LangGraph, Ollama
-    │                              │     Backend .......... FastAPI, Flask, Node, Express
-    │   [##############-----] 2027 │     Databases ........ Postgres, MongoDB, Redis
-    │                              │     MLOps ............ Docker, AWS, GCP, Actions
-    └──────────────────────────────┘
-                                         Contact ─────────────────────────────────────
-                                         Email ............ arushkarnatak1881@gmail.com
-                                         Portfolio ........ arushk.vercel.app
-                                         LinkedIn ......... arush-karnatak
-                                         X ................ @Kcodess
-
-                                         Stats ───────────────────────────────────────
-                                         Hackathons ....... 5 national finals · 2 wins
-                                         Shipped .......... SmartFlow · TraceRAG · Bodhi
-                                         Focus ............ CV · LLM agents · MLOps
-```
+<p align="center">
+  <img src="./header.svg" alt="arush@karnatak — AI/ML engineer, B.Tech IT 2027" width="820"/>
+</p>
 
 ---
 
