@@ -1,60 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Graphsight: a fact is remembered with its source, then replaced. The old fact is ended and kept as history.">
-  <style>
-    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
-    .dim  { fill: #8B949E; }
-    /* one 9s loop: the first fact is live, then a second arrives and ends it */
-    .old-live  { animation: oldLive 9s infinite; }
-    .old-ended { animation: oldEnded 9s infinite; }
-    .new       { animation: newIn 9s infinite; }
-    @keyframes oldLive  { 0%, 42% { opacity: 1 } 48%, 100% { opacity: 0 } }
-    @keyframes oldEnded { 0%, 42% { opacity: 0 } 48%, 100% { opacity: 1 } }
-    @keyframes newIn    { 0%, 44% { opacity: 0; transform: translateY(8px) } 52%, 100% { opacity: 1; transform: translateY(0) } }
-    @media (prefers-reduced-motion: reduce) {
-      .old-live { animation: none; opacity: 0 } .old-ended { animation: none; opacity: 1 } .new { animation: none; opacity: 1 }
-    }
-  </style>
-
-  <rect x="0.5" y="0.5" width="819" height="229" rx="14" fill="#0D1117" stroke="#30363D"/>
-
-  <!-- the mark: a g drawn as a node, an edge and the node it remembers -->
-  <g transform="translate(40 40) scale(2.1)">
-    <rect width="32" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
-    <g fill="none" stroke="#F0F6FC" stroke-width="3" stroke-linecap="round">
-      <circle cx="14.5" cy="13" r="5"/><path d="M21 7.5V19a5.5 5.5 0 0 1-5.5 5.5h-1"/>
-    </g>
-    <circle cx="10.5" cy="24.5" r="3" fill="#C8F169"/>
-  </g>
-  <text x="40" y="142" class="sans" font-size="22" font-weight="700" fill="#F0F6FC">Graphsight</text>
-  <text x="40" y="165" class="sans" font-size="13" fill="#8B949E">project memory for</text>
-  <text x="40" y="183" class="sans" font-size="13" fill="#8B949E">coding agents</text>
-
-  <line x1="218" y1="28" x2="218" y2="202" stroke="#21262D"/>
-
-  <!-- the ledger -->
-  <text x="246" y="44" class="mono dim" font-size="11">what the store holds</text>
-
-  <g>
-    <rect x="246" y="56" width="534" height="42" rx="8" fill="#161B22" stroke="#30363D"/>
-    <text x="262" y="74" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">PR #4821 TOUCHES checkout-service</text>
-    <text x="262" y="90" class="sans dim" font-size="11">read from GitHub, can't be forgotten</text>
-  </g>
-
-  <g class="old-live">
-    <rect x="246" y="106" width="534" height="42" rx="8" fill="#0F2A1E" stroke="#34D399"/>
-    <text x="262" y="124" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">checkout-service OWNED_BY payments team</text>
-    <text x="262" y="140" class="sans" font-size="11" fill="#8B949E">remembered, source: standup-12  <tspan fill="#34D399" font-weight="700">live</tspan></text>
-  </g>
-  <g class="old-ended">
-    <rect x="246" y="106" width="534" height="42" rx="8" fill="#0D1117" stroke="#30363D" stroke-dasharray="4 4"/>
-    <text x="262" y="124" class="mono" font-size="12.5" font-weight="700" fill="#6E7681" text-decoration="line-through">checkout-service OWNED_BY payments team</text>
-    <text x="262" y="140" class="sans" font-size="11" fill="#6E7681">remembered, source: standup-12  <tspan font-weight="700">ended, kept as history</tspan></text>
-  </g>
-
-  <g class="new">
-    <rect x="246" y="156" width="534" height="42" rx="8" fill="#0F2A1E" stroke="#34D399"/>
-    <rect x="246" y="156" width="5" height="42" rx="2.5" fill="#C8F169"/>
-    <text x="262" y="174" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">checkout-service OWNED_BY billing team</text>
-    <text x="262" y="190" class="sans" font-size="11" fill="#8B949E">remembered, source: reorg-memo  <tspan fill="#34D399" font-weight="700">live</tspan></text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="336" viewBox="0 0 820 336" role="img" aria-label="graphsight: python terminal">
+<style>
+.l { font-family: 'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; font-size: 12.5px; opacity: 0; animation: show .01s linear forwards; }
+@keyframes show { to { opacity: 1 } }
+.c { animation: blink 1.1s steps(2) infinite; }
+@keyframes blink { 50% { opacity: 0 } }
+@media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1 } .c { animation: none } }
+</style>
+<rect x=".5" y=".5" width="819" height="335" rx="10" fill="#0D1117" stroke="#30363D"/>
+<path d="M.5 10.5a10 10 0 0 1 10-10h799a10 10 0 0 1 10 10V34H.5z" fill="#161B22"/>
+<line x1=".5" y1="34" x2="819.5" y2="34" stroke="#30363D"/>
+<circle cx="20" cy="17" r="5" fill="#FF7B72"/><circle cx="38" cy="17" r="5" fill="#E3B341"/><circle cx="56" cy="17" r="5" fill="#3FB950"/>
+<text x="410.0" y="21.5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#8B949E">graphsight: python</text>
+<text class="l" style="animation-delay:0.00s" x="28" y="62" xml:space="preserve"><tspan fill="#3FB950">$ </tspan><tspan fill="#E6EDF3">pip install graphsight graphsight-langgraph</tspan></text>
+<text class="l" style="animation-delay:0.44s" x="28" y="104" xml:space="preserve"><tspan fill="#3FB950">&gt;&gt;&gt; </tspan><tspan fill="#E6EDF3">memory.remember("checkout-service", "owned by", "payments team", source="standup-12")</tspan></text>
+<text class="l" style="animation-delay:0.66s" x="28" y="125" xml:space="preserve"><tspan fill="#3FB950">&gt;&gt;&gt; </tspan><tspan fill="#E6EDF3">memory.remember("checkout-service", "owned by", "billing team",</tspan></text>
+<text class="l" style="animation-delay:0.88s" x="28" y="146" xml:space="preserve"><tspan fill="#3FB950">...                 </tspan><tspan fill="#E6EDF3">source="reorg-memo", replace=True)</tspan></text>
+<text class="l" style="animation-delay:1.10s" x="28" y="167" xml:space="preserve"><tspan fill="#3FB950">&gt;&gt;&gt; </tspan><tspan fill="#E6EDF3">router.route("who owns checkout-service?").facts</tspan></text>
+<text class="l" style="animation-delay:1.32s" x="28" y="188" xml:space="preserve"><tspan fill="#C8F169">  checkout-service OWNED_BY billing team</tspan><tspan fill="#8B949E">   (remembered, source: reorg-memo)</tspan></text>
+<text class="l" style="animation-delay:1.54s" x="28" y="209" xml:space="preserve"><tspan fill="#6E7681">  checkout-service OWNED_BY payments team</tspan><tspan fill="#8B949E">  ended, kept as history</tspan></text>
+<text class="l" style="animation-delay:1.76s" x="28" y="230" xml:space="preserve"><tspan fill="#E6EDF3">  PR #4821 TOUCHES checkout-service</tspan><tspan fill="#8B949E">        read from GitHub</tspan></text>
+<text class="l" style="animation-delay:2.20s" x="28" y="272" xml:space="preserve"><tspan fill="#3FB950">$ </tspan><tspan fill="#E6EDF3">python eval/run_memory.py --tasks memory_pytest   # 22 held-out tasks, exact match</tspan></text>
+<text class="l" style="animation-delay:2.42s" x="28" y="293" xml:space="preserve"><tspan fill="#8B949E">  none 5/22    episodic 14/22    </tspan><tspan fill="#C8F169">graph memory 16/22</tspan><tspan fill="#8B949E">    p=0.007 vs none</tspan></text>
+<text class="l" style="animation-delay:2.64s" x="28" y="314" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" fill="#3FB950">$</text>
+<rect class="c" x="45" y="301" width="8" height="15" fill="#C8F169"/>
 </svg>
