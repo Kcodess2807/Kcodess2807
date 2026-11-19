@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Graphsight: a fact is remembered with its source, then replaced. The old fact is ended and kept as history.">
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .dim  { fill: #8B949E; }
+    /* one 9s loop: the first fact is live, then a second arrives and ends it */
+    .old-live  { animation: oldLive 9s infinite; }
+    .old-ended { animation: oldEnded 9s infinite; }
+    .new       { animation: newIn 9s infinite; }
+    @keyframes oldLive  { 0%, 42% { opacity: 1 } 48%, 100% { opacity: 0 } }
+    @keyframes oldEnded { 0%, 42% { opacity: 0 } 48%, 100% { opacity: 1 } }
+    @keyframes newIn    { 0%, 44% { opacity: 0; transform: translateY(8px) } 52%, 100% { opacity: 1; transform: translateY(0) } }
+    @media (prefers-reduced-motion: reduce) {
+      .old-live { animation: none; opacity: 0 } .old-ended { animation: none; opacity: 1 } .new { animation: none; opacity: 1 }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="819" height="229" rx="14" fill="#0D1117" stroke="#30363D"/>
+
+  <!-- the mark: a g drawn as a node, an edge and the node it remembers -->
+  <g transform="translate(40 40) scale(2.1)">
+    <rect width="32" height="32" rx="8" fill="#161B22" stroke="#30363D"/>
+    <g fill="none" stroke="#F0F6FC" stroke-width="3" stroke-linecap="round">
+      <circle cx="14.5" cy="13" r="5"/><path d="M21 7.5V19a5.5 5.5 0 0 1-5.5 5.5h-1"/>
+    </g>
+    <circle cx="10.5" cy="24.5" r="3" fill="#C8F169"/>
+  </g>
+  <text x="40" y="142" class="sans" font-size="22" font-weight="700" fill="#F0F6FC">Graphsight</text>
+  <text x="40" y="165" class="sans" font-size="13" fill="#8B949E">project memory for</text>
+  <text x="40" y="183" class="sans" font-size="13" fill="#8B949E">coding agents</text>
+
+  <line x1="218" y1="28" x2="218" y2="202" stroke="#21262D"/>
+
+  <!-- the ledger -->
+  <text x="246" y="44" class="mono dim" font-size="11">what the store holds</text>
+
+  <g>
+    <rect x="246" y="56" width="534" height="42" rx="8" fill="#161B22" stroke="#30363D"/>
+    <text x="262" y="74" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">PR #4821 TOUCHES checkout-service</text>
+    <text x="262" y="90" class="sans dim" font-size="11">read from GitHub, can't be forgotten</text>
+  </g>
+
+  <g class="old-live">
+    <rect x="246" y="106" width="534" height="42" rx="8" fill="#0F2A1E" stroke="#34D399"/>
+    <text x="262" y="124" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">checkout-service OWNED_BY payments team</text>
+    <text x="262" y="140" class="sans" font-size="11" fill="#8B949E">remembered, source: standup-12  <tspan fill="#34D399" font-weight="700">live</tspan></text>
+  </g>
+  <g class="old-ended">
+    <rect x="246" y="106" width="534" height="42" rx="8" fill="#0D1117" stroke="#30363D" stroke-dasharray="4 4"/>
+    <text x="262" y="124" class="mono" font-size="12.5" font-weight="700" fill="#6E7681" text-decoration="line-through">checkout-service OWNED_BY payments team</text>
+    <text x="262" y="140" class="sans" font-size="11" fill="#6E7681">remembered, source: standup-12  <tspan font-weight="700">ended, kept as history</tspan></text>
+  </g>
+
+  <g class="new">
+    <rect x="246" y="156" width="534" height="42" rx="8" fill="#0F2A1E" stroke="#34D399"/>
+    <rect x="246" y="156" width="5" height="42" rx="2.5" fill="#C8F169"/>
+    <text x="262" y="174" class="mono" font-size="12.5" font-weight="700" fill="#F0F6FC">checkout-service OWNED_BY billing team</text>
+    <text x="262" y="190" class="sans" font-size="11" fill="#8B949E">remembered, source: reorg-memo  <tspan fill="#34D399" font-weight="700">live</tspan></text>
+  </g>
+</svg>
