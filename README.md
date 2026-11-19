@@ -30,10 +30,7 @@ GitHub doesn't hold. A tracer shows what the agent retrieved and what it actuall
 - **Shipped.** The tracer and viewer are on PyPI, with an MCP server and a LangGraph adapter.
 
 `Python` `LadybugDB` `LangGraph` `MCP` `FastAPI` `React`
-&nbsp;[Code](https://github.com/Kcodess2807/graphsight) ·
-[PyPI](https://pypi.org/project/graphsight/) ·
-[Site](https://trace-rag.vercel.app/) ·
-[Eval](https://github.com/Kcodess2807/graphsight/tree/main/backend/eval)
+&nbsp;[Code](https://github.com/Kcodess2807/graphsight) · [PyPI](https://pypi.org/project/graphsight/) · [Site](https://trace-rag.vercel.app/) · [Eval](https://github.com/Kcodess2807/graphsight/tree/main/backend/eval)
 
 <br/>
 
