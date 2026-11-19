@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="212" viewBox="0 0 820 212" role="img" aria-label="Where I work in the agent stack: orchestration and memory shipped, payments some, inference learning now.">
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .scan { animation: scan 2.4s linear infinite; }
+    @keyframes scan { from { stroke-dashoffset: 24 } to { stroke-dashoffset: 0 } }
+    @media (prefers-reduced-motion: reduce) { .scan { animation: none } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="819" height="211" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <text x="40" y="40" class="mono" font-size="11" fill="#8B949E">the stack under an agent, top to bottom, and where I've worked in it</text>
+
+  <!-- shipped -->
+  <g>
+    <rect x="40" y="56" width="740" height="30" rx="7" fill="#161B22" stroke="#30363D"/>
+    <text x="56" y="76" class="sans" font-size="13.5" font-weight="700" fill="#F0F6FC">Agent orchestration</text>
+    <text x="250" y="76" class="sans" font-size="12" fill="#8B949E">LangGraph agents, MCP servers, a pure-Python agent framework</text>
+    <text x="764" y="76" text-anchor="end" class="mono" font-size="11" fill="#34D399">shipped</text>
+  </g>
+  <g>
+    <rect x="40" y="92" width="740" height="30" rx="7" fill="#1B2A12" stroke="#C8F169"/>
+    <text x="56" y="112" class="sans" font-size="13.5" font-weight="700" fill="#F0F6FC">Memory for agents</text>
+    <text x="250" y="112" class="sans" font-size="12" fill="#C9D1D9">graph + episodic memory with provenance, measured (Graphsight)</text>
+    <text x="764" y="112" text-anchor="end" class="mono" font-size="11" fill="#C8F169">main focus</text>
+  </g>
+  <g>
+    <rect x="40" y="128" width="740" height="30" rx="7" fill="#161B22" stroke="#30363D"/>
+    <text x="56" y="148" class="sans" font-size="13.5" font-weight="700" fill="#F0F6FC">Payments</text>
+    <text x="250" y="148" class="sans" font-size="12" fill="#8B949E">integration work, a smaller part of what I do</text>
+    <text x="764" y="148" text-anchor="end" class="mono" font-size="11" fill="#8B949E">some</text>
+  </g>
+  <g>
+    <rect class="scan" x="40" y="164" width="740" height="30" rx="7" fill="#0D1117" stroke="#58A6FF" stroke-dasharray="6 6"/>
+    <text x="56" y="184" class="sans" font-size="13.5" font-weight="700" fill="#F0F6FC">Inference</text>
+    <text x="250" y="184" class="sans" font-size="12" fill="#8B949E">llama.cpp, TensorRT-LLM, SGLang: batching, quantization, serving</text>
+    <text x="764" y="184" text-anchor="end" class="mono" font-size="11" fill="#58A6FF">learning now</text>
+  </g>
+</svg>
